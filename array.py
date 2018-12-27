@@ -12,7 +12,7 @@ d = double integer(signed)  -> 8 bytes
 l = long integer(signed) -> 4 bytes
 L = long intege(unsigned) -> 4 bytes
 '''
-
+x.reverse()
 x.append(9)
 print(x)
 

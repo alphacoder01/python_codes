@@ -9,7 +9,7 @@ a = numpy.array([1, 2, 3])
 print(a)
 
 print(a.dtype)  # datatype of elements.
-
+print(a.ndim)  # dimension of array.
 b = numpy.array([(1.5, 6, 7), (8, 9, 10)])
 print(b)
 
@@ -47,6 +47,6 @@ print(j)
 l = numpy.linspace(0, 15)  # by default it breaks into 50 equal parts
 print(l)
 
-v = numpy.array([5,8,9,6,4,6])
+v = numpy.array([5, 8, 9, 6, 4, 6])
 f = numpy.sort(v)
 print(f)
